@@ -5,7 +5,6 @@ public class Solution {
         String[] stringArray = new String[numRows];
         String result = "";
         int space = (2 * numRows - 2);
-        System.out.println(s.length() + " " + numRows);
         if (s.length() <= numRows || numRows == 1) {
             return s;
         }
